@@ -1,0 +1,19 @@
+<hr />
+<div class="main-container">
+  <% if (posts.length > 0) { %> <% posts.forEach(post => { %>
+  <div class="post-container">
+    <h3 class="post-title"><%= post.title %></h3>
+    <div class="line"></div>
+    <p class="post-description"><%= post.description %></p>
+    <p class="post-source"><%= post.source %></p>
+    <p class="post-time"><%= post.createdAt.toLocaleDateString() %></p>
+
+    <!-- Delete btn -->
+    <form method="POST" action="/api/v1/posts/<%= post.id %>?_method=DELETE">
+      <button class="delete-btn" type="submit">Delete</button>
+    </form>
+  </div>
+  <% }) %>
+  <!--  -->
+  <% } %>
+</div>

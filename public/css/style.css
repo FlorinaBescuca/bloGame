@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko&display=swap');
+
+:root{
+    --light-color: #fff;
+    --light-color-alt: #afb6cd;
+    --primary-background-color: #131417;
+    --secondary-background-color: #252830;
+    --font-family: 'Bebas Neue', sans-serif;
+    --font-family-p:'Teko',
+        sans-serif;
+    --font-size-xsm: 1.2rem;
+     --font-size-sm: 1.6rem;
+     --font-size-md: 2.2rem;
+    --font-size-lg: 3rem;
+    --font-size-xl: 4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: var(--font-size-sm);
+    background-color: var(--primary-background-color);
+    letter-spacing: 1px;
+    color: var(--light-color);
+    
+}
+
+
+/* Nav Header */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-background-color);
+}
+
+
+.header, h1{ 
+    font-family: var(--font-family);
+    padding: 5px 5px;
+    background-color: var(--secondary-background-color);
+}
+
+.poro {
+    width: 60px;
+    height: 50px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    background-color: var(--secondary-background-color);
+}
+
+/* Main || title + p */
+.title-main {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-p);
+    font-size: var(--font-size-lg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-p {
+    font-family: var(--font-family-p);
+    margin-right: 10px;
+    margin-top: 13px;
+    color: #fff;
+}
+ 
+.nav-title {
+    margin-left: 80px;
+}
+
+main {
+    font-family: var(--font-family-p);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--primary-background-color);
+}
+
+hr {
+    border: 1px dashed #fff;
+    background-color: var(--primary-background-color);
+}
+
+.intro-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-des {
+    max-width: 100%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px ;
+    border: var(--light-color) solid 3px;
+    box-shadow: 0 0 10px #9ecaed;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 320px;
+    height: 290px;
+    margin:100px 10px;
+    list-style: none;
+}
+
+.item:hover {
+    border: 1px solid #afb6cd;
+    box-shadow: 0 0 10px #9ecaed;
+    transition-duration: 0.5s;
+}
+
+.img-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    height: 288px;
+}
+
+.dota {
+    background-image: url("../img/dota-2-pic.png");
+}
+
+.lol{
+    background-image: url("../img/league-of-legeds-pic.png");
+    width: 300px;
+}
+
+.valorant {
+    background-image: url("../img/valorant-pic.png");
+    width: 300px;
+}
+
+a {
+  color: #fff;
+ text-decoration: none;
+
+}
+
+.btn-back {
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* allPosts */
+
+.main-container{
+    display: grid;
+    place-items: center;
+    font-family: var(--font-family-p);
+}
+
+.post-container {
+    border: 1px solid #afb6cd;
+    box-shadow: 0 0 10px #9ecaed;
+    margin-top: 25px;
+    padding: 30px;
+    width: 70%;
+}
+
+.line {
+    margin-bottom: 15px;
+    height: 5px;
+    background: #fff;
+    animation: lineH 5s infinite linear;
+}
+
+    	@keyframes lineH {
+    	    0% {
+    	        width: 0%;
+    	    }
+    
+    	    100% {
+    	        width: 30%;
+    	        opacity: 0;
+    	    }
+    	}
+.post-description {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.post-source {
+    color: #afb6cd;
+text-align: right;
+}
+
+.post-description, .post-source {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.post-time {
+    opacity: 0.3;
+}
+
+.delete-btn {
+    background-color: #252830;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 1px 1px;    
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #751127;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Swup */
+.transition-fade {
+    opacity: 1;
+    transition: 1000ms;
+    transform: translateX(0);
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+}

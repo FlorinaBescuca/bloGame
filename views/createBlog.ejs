@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/createBlog.css" />
+    <link rel="shortcut icon" type="image" href="/img/android-icon-72x72.png" />
+    <title>Create Tournament & Update || bloGame</title>
+  </head>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+
+    <h2>Create Tournament & Update</h2>
+
+    <hr />
+
+    <div class="create-blog content">
+      <form action="/api/v1/posts" method="POST">
+        <label for="game">Which Game/News </label>
+        <select id="game" name="game">
+          <option value="dota2">Dota2</option>
+          <option value="leagueoflegends">League of Legends</option>
+          <option value="valorant">Valorant</option>
+          <option value="news">News</option>
+        </select>
+
+        <label for="what-type">Selecte the type</label>
+        <select id="what-type" name="whatType">
+          <option value="Tournament">Tournament</option>
+          <option value="Update">Update</option>
+          <option value="News">News</option>
+        </select>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="source">Source:</label>
+        <input type="link" id="source" name="source" required />
+        <button type="submit">Save</button>
+      </form>
+    </div>
+    <!-- Footer -->
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

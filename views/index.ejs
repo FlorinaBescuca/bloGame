@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <link rel="shortcut icon" type="image" href="/img/android-icon-72x72.png" />
+
+    <script defer src="/Js/swup.js"></script>
+    <title>bloGame</title>
+  </head>
+  <body>
+    <!-- nav -->
+
+    <%- include('./partials/nav.ejs') %>
+    <!-- main -->
+    <main id="swup" class="transition-fade">
+      <!-- Description -->
+      <div class="intro-page">
+        <img class="img-des" src="/img/desPic.jpg" alt="gamePic" />
+        <div class="title">
+          <h2 class="title-main">Welcome to bloGame</h2>
+          <p class="main-p">
+            Get up to speed on news about eSports tournaments and updates for
+            the most played games in the world as well as news about other games
+            such as new releases, most popular PC/Console games.
+          </p>
+        </div>
+      </div>
+
+      <!-- list of the games -->
+      <div class="list-item">
+        <ul class="container">
+          <li class="item dota">
+            <a href="/views/dota.ejs">Tournaments and updates </a>
+          </li>
+
+          <li class="item lol">
+            <a href="/views/lol.ejs">Tournaments and updates </a>
+          </li>
+
+          <li class="item valorant">
+            <a href="/views/valorant.ejs">Tournaments and updates</a>
+          </li>
+
+          <li class="item"><a href="/views/news.ejs">Video Games News</a></li>
+        </ul>
+      </div>
+    </main>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

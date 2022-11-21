@@ -1,0 +1,79 @@
+[
+    {"id":0,
+    "game":"dota2",
+    "whatType":"update",
+    "title":"Gameplay Update 7.29d",
+    "description":"HERO UPDATES:Batrider STICKY NAPALM Now deals 50% less damage against all creeps. Fixed units never resuming proper pathfinding if they were ever unable to find a path forward (e.g: trapped in the trees next to the Radiant Top Tier 3 tower)",
+    "source":"https://www.dota2.com/patches/7.29d"
+    },
+
+    {"id":1,
+    "game":"valorant",
+    "whatType":"update",
+    "title":"VALORANT PATCH NOTES 5.10",
+    "description":"We're back with Patch Notes 5.10 and we're addressing some of the larger issues players have had with Cypher and Fade in the past. Also included are a bunch of Agent bug fixes and a new feature called Real Time Text Evaluation so that players can feel safer engaging with their teammates and opponents. Read more about it below.",
+    "source":"https://www.leagueoflegends.com/ro-ro/news/game-updates/patch-12-22-notes/"
+},
+
+    {"id":2,
+    "game":"leagueoflegends",
+    "whatType":"update",
+    "title":"PATCH 12.6 NOTES",
+    "description":"Anima Squad up, that is. It's been a hot minute since the mid-patch 12.5 balances, so there's a lot in store this week. In addition to some spunky new sci-fi skins, we have buffs and nerfs galore, a set of adjustments to Rengar, and systemic changes to sustain items and runes. Phase 1 of the Mythic Content Overhaul is also finally here! Keep reading to find out more about Mythic Essence, the Mythic Shop, unvaulted Prestige skins, and an update on Phase 2.",
+    "source":"https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-6-notes/"
+},
+
+    {"id":3,
+    "game":"leagueoflegends",
+    "whatType":"Tournament",
+    "title":"LoL eSport",
+    "description":"No future scheduled matches for your selection.",
+    "source":"https://lolesports.com/?leagues=worlds,lec"
+},
+
+    {"id":4,
+    "game":"valorant",
+    "whatType":"Tournament",
+    "title":"Valorant eSport",
+    "description":"No future scheduled matches for your selection.",
+    "source":"https://valorantesports.com/schedule"
+},
+
+    {"id":5,
+    "game":"dota2",
+    "whatType":"Tournament",
+    "title":"Doat 2 eSport",
+    "description":"No future scheduled matches for your selection.",
+    "source":"https://www.dota2.com/esports/ti11/watch/14268/98/game1vod"
+},
+
+    {"id":6,
+    "game":"dota2",
+    "whatType":"News",
+    "title":"Voidstorm Asylum Razor Arcana — Now Available",
+    "description":"Razor reclaims the secrets of his true origins with the help of a void-touched power sent to shatter the mystic bonds between the lightning revenant and the hidden masters of the Narrow Maze — and unleash a rage that only retribution will set to rights. Electrify your battles with the Voidstorm Asylum Razor Arcana, featuring an all-new model with an unlockable second style, custom animations and effects, custom hero assets, 600+ new voice lines, and custom kill and deny effects. Voidstorm Asylum is available to all players who reach level 383 in the Battle Pass.",
+    "source":"https://www.dota2.com/newsentry/3487503395161750311"
+},
+
+    {"id":7,
+    "game":"news",
+    "whatType":"News",
+    "title":"In 2022, It's Still Baffling That Bloodborne Isn't On PC Yet",
+    "description":"Hey, did you know that Bloodborne is still a PlayStation exclusive? Of course you do--the internet will never let you forget. Recently, Sony deleted a Bloodborne-related tweet after a legion of fans dogpiled it in the vain hope that an announcement was in the works. Indeed, it doesn't take much for the 2015 game to trend on popular social media sites like Twitter. Even a pointed tweet from a noted figure in the Souls community like Lance McDonald can stir up the hornet's nest.",
+    "source":"https://www.gamespot.com/articles/in-2022-its-still-baffling-that-bloodborne-isnt-on-pc-yet/1100-6509218/"
+},
+
+    {"id":8,
+    "game":"news",
+    "whatType":"News",
+    "title":"Raid team up with Amazon for in-game promo event…",
+    "description":"It's been a couple of years since the last event with Prime Gaming, however, Raid Shadow Legends has teamed up once again with Amazon Prime to deliver a load of promo drops to boost your account over the next few months…."
+},
+
+    {"id":9,
+    "game":"news",
+    "whatType":"News",
+    "title":"Heartbreaking God of War Ragnarok Quest Pays a Very Special Tribute",
+    "description":"There's lots to do in God of War Ragnarok, and it's the kind of game where exploration is handsomely rewarded with all kinds of entertaining, amusing, and occasionally heart-breaking quests. The true story behind Across the Realms is particularly poignant, however, as it relates to a Santa Monica Studio developer who passed away – and his relationship with a colleague. Before we elaborate further, though, it should be noted that the contents of this article refer to a Favour in the PS5 and PS4 title that some may consider a spoiler. While it is a relatively minor side-quest in the grand scheme of things, this is your opportunity to exit before we go into detail.",
+    "source":"https://www.pushsquare.com/news/2022/11/heartbreaking-god-of-war-ragnarok-quest-pays-a-very-special-tribute"}
+]
