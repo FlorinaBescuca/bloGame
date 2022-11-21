@@ -42,4 +42,3 @@
 ### Small preview of the bloGame
 
 - Main Page
-  ![alt text](file:///C:/Users/Nena/Desktop/main.page.png)
