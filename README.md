@@ -24,7 +24,7 @@
 ### Features
 
 - [x] You can publish posts using _Create Tournament & Update_ button
-- [x] Each post will be displayed depending on what you selected to _Which Game/News_
+- [x] Each post will be displayed depending on what you selected in the _Which Game/News_ section
 - [x] You have the option to _delete_ the post
 - [x] Cool animations :black_cat:
 
