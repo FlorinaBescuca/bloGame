@@ -4,6 +4,7 @@
 
 ### Usage
 
----
+- npm install
+- npm start
 
 ### Configuration
