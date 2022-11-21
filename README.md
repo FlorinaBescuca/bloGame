@@ -44,3 +44,7 @@
 #### Main Page
 
 ![Alt text](/public/img/main.page.png?raw=true "Main page")
+
+### Published
+
+![Alt text](/public/img/post.page2.png?raw=true "Main page")
