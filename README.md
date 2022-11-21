@@ -42,3 +42,4 @@
 ### Small preview of the bloGame
 
 - Main Page
+  ![Alt text](/public/img/main.page.png?raw=true "Main page")
