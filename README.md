@@ -36,3 +36,10 @@
 - [ ] Add the _edit_ button
 - [ ] The _Tournaments_ posts to be organized, including _date_, _team_, _prize pool_
 - [ ] Mobile Responsive
+
+---
+
+### Small preview of the bloGame
+
+- Main Page
+  ![alt text](file:///C:/Users/Nena/Desktop/main.page.png)
