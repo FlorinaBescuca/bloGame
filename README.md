@@ -47,4 +47,4 @@
 
 ### Published
 
-![Alt text]("Published")
+![Alt text](/public/img/post.page2.png?raw=true "Published")
